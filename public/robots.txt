@@ -1,0 +1,7 @@
+# Robots.txt for Ibn Taymiyyah Digital Encyclopedia
+# https://ais-dev-amwpkxubpm6ly5zib345jo-172175472769.europe-west1.run.app
+
+User-agent: *
+Allow: /
+
+Sitemap: /sitemap.xml

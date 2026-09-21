@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #F7F4EC;
+    --bg-secondary: #EFEADE;
+    --card-bg: #FFFDF7;
+    --text-primary: #090909;
+    --text-secondary: #343434;
+    --border-base: #D8D3C5;
+    --accent-brown: #5A3E2B;
+    --accent-gold: #9B783E;
+    --accent-gold-light: #F4E8C1;
+  }
+
+  html {
+    background-color: #F7F4EC;
+    color: #090909;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Noto Sans Arabic', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  [dir="ltr"] {
+    font-family: 'Inter', 'Noto Sans Arabic', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Classical Arabic Reading Typography */
+  .font-scholarly {
+    font-family: 'Amiri', 'Noto Naskh Arabic', serif;
+  }
+
+  .font-naskh {
+    font-family: 'Noto Naskh Arabic', 'Amiri', serif;
+  }
+
+  .font-brand {
+    font-family: 'Cinzel', 'Amiri', serif;
+  }
+
+  .font-mono-num {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Reader Typography Styles */
+.prose-scholarly {
+  font-family: 'Amiri', 'Noto Naskh Arabic', serif;
+  line-height: 2.1;
+  font-size: 1.25rem;
+  color: #1A1A1A;
+}
+
+/* Custom subtle parchment scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EFEADE;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4BEAF;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5A3E2B;
+}

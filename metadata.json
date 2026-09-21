@@ -1,0 +1,7 @@
+{
+  "name": "موسوعة شيخ الإسلام ابن تيمية",
+  "description": "موسوعة رقمية متخصصة في البحث والقراءة والتعرّف على التراث العلمي الموثق لشيخ الإسلام ابن تيمية رحمه الله.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
